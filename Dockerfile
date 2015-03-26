@@ -6,16 +6,12 @@ MAINTAINER Daisuke Tanaka, tanaka@infocorpus.com
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update && \
-    apt-get install -y php5-dev php5-cli php-pear && \
-    rm -rf /var/lib/apt/lists/*
+COPY mongo /usr/lib/php5/20131226/mongo.so
+RUN chmod 777 /usr/lib/php5/20131226/mongo.so
 
-RUN pecl install mongo
 RUN touch /etc/php5/fpm/conf.d/20-mongo.ini
 RUN chmod 777 /etc/php5/fpm/conf.d/20-mongo.ini
 RUN echo "extension=mongo.so" >> /etc/php5/fpm/conf.d/20-mongo.ini
-
-RUN apt-get clean all
 
 # Executing sh
 CMD ["supervisord", "-n"]
