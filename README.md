@@ -4,14 +4,14 @@
 
 ### Base Docker Image
 
-[tanaka0323/nginx-php](https://bitbucket.org/tanaka0323/docker-nginx-php "tanaka0323/nginx-php")
+[tanaka0323/nginx-php](https://bitbucket.org/tanaka0323/docker-nginx-php)
 
 ### 説明
 
 Nginx+PHP5+MongoDB(ドライバのみ) Dockerコンテナイメージです。
 
-[Dockerとは？](https://docs.docker.com/ "Dockerとは？")  
-[Docker Command Reference](https://docs.docker.com/reference/commandline/cli/ "Docker Command Reference")
+[Dockerとは？](https://docs.docker.com/)  
+[Docker Command Reference](https://docs.docker.com/reference/commandline/cli/)
 
 ### 使用方法
 
@@ -21,11 +21,11 @@ git pull後に
 
 イメージ作成
 
-    $ docker build -t <tag>/nginx-php-mongo .
+    $ docker build -t tanaka0323/nginx-php-mongo .
 
 起動
 
-    $ docker run --name <name> -d -e VIRTUAL_HOST=<hostname> -ti <tag>/nginx-php-mongo
+    $ docker run --name <name> -d -e VIRTUAL_HOST=<hostname> -ti tanaka0323/nginx-php-mongo
 
 コンテナ内へログイン
 
@@ -33,9 +33,9 @@ git pull後に
 
 ### Figでの使用方法
 
-[Figとは？](http://www.fig.sh/ "Fidとは？")  
+[Figとは？](http://www.fig.sh/)  
 
-[設定ファイル記述例](https://bitbucket.org/tanaka0323/fig-examples "設定ファイル記述例")
+[設定ファイル記述例](https://bitbucket.org/tanaka0323/fig-examples)
 
 ### License
 
