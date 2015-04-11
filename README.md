@@ -1,19 +1,23 @@
 ![nginx 1.7.11](https://img.shields.io/badge/nginx-1.7.11-brightgreen.svg) ![php 5.6.7](https://img.shields.io/badge/php-5.6.7-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# docker-nginx-php-mongo
+docker-nginx-php-mongo
+=====================
 
-### Base Docker Image
+Base Docker Image
+---------------------
 
 [tanaka0323/nginx-php](https://bitbucket.org/tanaka0323/docker-nginx-php)
 
-### 説明
+説明
+---------------------
 
 Nginx+PHP5+MongoDB(ドライバのみ) Dockerコンテナイメージです。
 
 [Dockerとは？](https://docs.docker.com/)  
 [Docker Command Reference](https://docs.docker.com/reference/commandline/cli/)
 
-### 使用方法
+使用方法
+---------------------
 
 git pull後に
 
@@ -31,13 +35,15 @@ git pull後に
 
     $ docker exec -ti <name> bash
 
-### Docker Composeでの使用方法
+Docker Composeでの使用方法
+---------------------
 
 [Docker Composeとは](https://docs.docker.com/compose/)  
 
 [設定ファイル記述例](https://bitbucket.org/tanaka0323/compose-examples)
 
-### License
+License
+---------------------
 
 The MIT License
 Copyright (c) 2015 Daisuke Tanaka
