@@ -11,7 +11,7 @@ Base Docker Image
 説明
 ---------------------
 
-Nginx+PHP5+MongoDB(ドライバのみ) Dockerコンテナイメージです。
+Nginx+PHP5+MongoDB(ドライバのみ) Dockerコンテナ作成設定
 
 [Dockerとは？](https://docs.docker.com/)  
 [Docker Command Reference](https://docs.docker.com/reference/commandline/cli/)
