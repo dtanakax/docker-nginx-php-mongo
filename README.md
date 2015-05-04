@@ -6,7 +6,7 @@ docker-nginx-php-mongo
 Base Docker Image
 ---------------------
 
-[dtanakax/nginx-php](https://registry.hub.docker.com/u/dtanakax/nginx-php/)
+[dtanakax/nginx-php:latest](https://registry.hub.docker.com/u/dtanakax/nginx-php/)
 
 説明
 ---------------------
