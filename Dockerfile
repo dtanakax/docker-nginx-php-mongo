@@ -2,7 +2,7 @@
 FROM dtanakax/nginx-php:latest
 
 # File Author / Maintainer
-MAINTAINER Daisuke Tanaka, tanaka@infocorpus.com
+MAINTAINER Daisuke Tanaka, dtanakax@gmail.com
 
 ENV DEBIAN_FRONTEND noninteractive
 
