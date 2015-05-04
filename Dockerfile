@@ -1,5 +1,5 @@
 # Set the base image
-FROM tanaka0323/nginx-php
+FROM dtanakax/nginx-php:latest
 
 # File Author / Maintainer
 MAINTAINER Daisuke Tanaka, tanaka@infocorpus.com
