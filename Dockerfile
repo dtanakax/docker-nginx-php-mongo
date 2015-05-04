@@ -13,5 +13,10 @@ RUN touch /etc/php5/fpm/conf.d/20-mongo.ini
 RUN chmod 777 /etc/php5/fpm/conf.d/20-mongo.ini
 RUN echo "extension=mongo.so" >> /etc/php5/fpm/conf.d/20-mongo.ini
 
+ENTRYPOINT ["./start.sh"]
+
+# Set the port to 80
+EXPOSE 80 443
+
 # Executing sh
 CMD ["supervisord", "-n"]
